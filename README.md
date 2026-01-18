@@ -1,1 +1,2 @@
 # assignment-2
+i think i have done most of the things for assignment but doing this made me realise that my js needs more work i researched most of my js however my css i only needed hel for bits and bobs small stuff.
