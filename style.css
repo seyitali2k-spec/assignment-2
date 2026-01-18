@@ -63,14 +63,22 @@ body {
   background: black;
 }
 @media (max-width: 600px) {
-.thumbnails {
+  .thumbnails {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  top: auto;
+  width: 100%;
 }
+
 .thumbnails img {
-  width: 25%;
-  height: auto;
-  border-radius: 8px;
+  width: 60px;
+  height: 40px;
+  object-fit: cover;
   }
 }
