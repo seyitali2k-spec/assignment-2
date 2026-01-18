@@ -63,12 +63,14 @@ body {
   background: black;
 }
 @media (max-width: 600px) {
-  .thumbnails {
-    bottom: 20px;
-    top: auto;
-  }
-  .thumbnails img {
-    width: 60px;
-    height: 40px;
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.thumbnails img {
+  width: 25%;
+  height: auto;
+  border-radius: 8px;
   }
 }
