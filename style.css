@@ -44,8 +44,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-
-  background: rgba(0, 0, 0, 0.6);
+  background: black;
   color: white;
   border: none;
   font-size: 32px;
@@ -61,7 +60,7 @@ body {
   right: 20px;
 }
 .nav-arrow:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: black;
 }
 @media (max-width: 600px) {
   .thumbnails {
